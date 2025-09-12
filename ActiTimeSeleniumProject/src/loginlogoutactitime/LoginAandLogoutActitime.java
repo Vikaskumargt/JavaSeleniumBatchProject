@@ -15,6 +15,10 @@ public class LoginAandLogoutActitime {
             //1. Open browser
             oBrowser = new ChromeDriver();
             oBrowser.manage().window().maximize();
+            System.out.println("______________");
+            System.out.println("______________");
+            System.out.println("______________");
+            System.out.println("______________");
 
             //2. navigate the actiTime URL
             oBrowser.navigate().to("http://localhost:8080/login.do");
